@@ -14,7 +14,7 @@ $(function() {
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             $.ajax({
-                url: "http://railsfever.us9.list-manage.com/subscribe/post-json?u=157a5dd874eaccb1ae0f2a451&id=d59c99f8e9&c=?",
+                url: "https://railsfever.us9.list-manage.com/subscribe/post-json?u=157a5dd874eaccb1ae0f2a451&id=d59c99f8e9&c=?",
                 type: "GET",
                 data: $('#contactForm').serialize(),
                 dataType : 'json',
